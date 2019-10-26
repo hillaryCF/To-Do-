@@ -1,0 +1,40 @@
+.active {
+  background: white;
+  color: #5824cd;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-left: 52px;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  height: 900px;
+  background: linear-gradient(180deg, #331ab5 0%, #5824cd 11.58%, #7f2fe6 57.26%);
+  color: white;
+  bottom: 0;
+}
+
+.sidebar__title {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 60px;
+  padding: 50px;
+}
+
+.sidebar__wave {
+  background-image: url("./static/wave.svg");
+  width: 20%;
+  height: 186px;
+  position: absolute;
+  bottom: 0;
+}
+.sidebar__wave2 {
+  background-image: url("./static/wave2.svg");
+  width: 20%;
+  height: 186px;
+  position: absolute;
+  bottom: 0;
+}

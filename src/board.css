@@ -1,0 +1,39 @@
+.form {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
+.form__label {
+  display: block;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.form__btn {
+  display: block;
+  padding: 19px;
+  background: #f6c313;
+  border-radius: 7px;
+  border: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.form__input {
+  width: 390px;
+  border: 2px solid #d6d6d6;
+}
+
+.form__input--height{
+  height: 100px;
+}
+
+.form__time {
+  border: 2px solid #d6d6d6;
+}

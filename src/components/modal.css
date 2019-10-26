@@ -1,0 +1,57 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(31, 28, 28, 0.6);
+}
+
+.modal__btn {
+  position: fixed;
+  background: #5824cd;
+  width: 10%;
+  height: 48px;
+  top: 50%;
+  left: 51%;
+  border-radius: 17px;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.modal__btn-left {
+  left: 40%;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.form__btn {
+  display: block;
+  padding: 19px;
+  background: #f6c313;
+  border-radius: 7px;
+  border: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.modal__question {
+  position: fixed;
+  top: 41%;
+  left: 42%;
+  color: white;
+  font-size: 19px;
+}
