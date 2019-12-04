@@ -117,7 +117,7 @@ class Form extends React.Component {
     const deadline = this.state.deadline
     const time =  this.state.time
     const taskDescription = this.state.taskDescription
-    dataTask.push(taskName,deadline,time,taskDescription)
+    dataTask.push({taskName,deadline,time,taskDescription})
     localStorage.setItem('dataTask', JSON.stringify(dataTask))
   };
 
