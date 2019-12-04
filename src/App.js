@@ -1,18 +1,19 @@
 import React from 'react';
-import Sidebar from './section/sidebar';
-import Form from './section/board';
-
-
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Home from './pages/home'
+import Task from './pages/task'
 import './app.css';
-
-
 
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
-      <Form/>
-    
+      <BrowserRouter>
+        <Switch>
+          <Route path={"/"} component={Home} exact/>
+          <Route path={"/task"} component={Task}/>
+        </Switch>
+      </BrowserRouter>
+      
     </div>
   );
 }

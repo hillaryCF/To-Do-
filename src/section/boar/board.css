@@ -1,8 +1,12 @@
 .form {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 10%;
-  left: 25%;
+  top: 8%;
+  width: 32%;
+  left: 34%;
 }
+
 
 .form__label {
   display: block;
@@ -12,7 +16,6 @@
 }
 
 .form__btn {
-  display: block;
   padding: 19px;
   background: #f6c313;
   border-radius: 7px;
@@ -23,6 +26,7 @@
   cursor: pointer;
   font-weight: bold;
   margin-top: 30px;
+  width: 35%;
 }
 
 .form__input {

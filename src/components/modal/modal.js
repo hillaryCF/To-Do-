@@ -10,7 +10,6 @@ const Modal = ({ modalClose, show,modalSubmit }) => {
       <button onClick={modalClose} className="modal__btn">Add other task</button>
       <button type="submit" onSubmit={modalSubmit} className="modal__btn modal__btn-left">Show Tasks</button>
     </div>
-    
     </React.Fragment>
   );
 };
